@@ -6,11 +6,11 @@
 + [MIT AppInventor](http://appinventor.mit.edu/explore/)
 
 ## Other Robotics Kits or Learning Opportunities
-+ [RobotGrrl](http://robotgrrl.com): Blog and videos, as well as a weekly [Robot Party](http://robotgrrl.com/robotparty) Google+ Hangout, and a store for [RoboBrrd](http://robobrrd.com/store).  She originally started with robots as a teenage girl, but 
-+ 
++ [RobotGrrl](http://robotgrrl.com): Blog and videos, as well as a weekly [Robot Party](http://robotgrrl.com/robotparty) Google+ Hangout, and a store for [RoboBrrd](http://robobrrd.com/store).  She originally started with robots as a teenage girl
++ Resources by Gordon McComb: Arduino Robot Bonanza, robotoid.com, Robot Builder's Bonanza
+ 
 
 ## Decide whether to keep and where to put...
 + MakeZine
 + Robots-dreams.com
-+ 
 
