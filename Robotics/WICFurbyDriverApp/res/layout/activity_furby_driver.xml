@@ -26,4 +26,25 @@
         android:text="@string/furby_feed" 
         android:onClick="feedFurby"/>
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/furby_listen" 
+        android:onClick="furbyListen"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/furby_sing" 
+        android:onClick="furbySing"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:text="@string/furby_vomit" 
+        android:onClick="furbyVomit"/>
+
 </LinearLayout>

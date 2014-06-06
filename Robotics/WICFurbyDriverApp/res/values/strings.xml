@@ -8,4 +8,7 @@
     <string name="furby_burp">Burp</string>
     <string name="furby_fart">Fart</string>
 	<string name="furby_feed">Feed Him!</string>
+	<string name="furby_listen">Listen</string>
+	<string name="furby_sing">Sing</string>
+	<string name="furby_vomit">Vomit</string>
 </resources>
