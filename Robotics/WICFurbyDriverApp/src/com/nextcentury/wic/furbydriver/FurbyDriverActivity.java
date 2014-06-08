@@ -36,7 +36,8 @@ public class FurbyDriverActivity extends Activity {
 	public void furbySing( View v) {
 		PlaySound.playSound(getApplicationContext(), R.raw.furby_sing_868);
 	}
-	
+	**/
+	/**
 	public void furbyVomit( View v) {
 		PlaySound.playSound(getApplicationContext(), R.raw.furby_vomit_884);
 	}
