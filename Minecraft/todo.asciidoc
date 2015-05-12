@@ -4,8 +4,8 @@
 
 
 == ToDo
-* Set up Minecraft account
 * Build out repeatable Eclipse + Minecraft + Forge installation
+  ** half-way there: prove it works off of the copy on my thumb drive
 * Pick 3-4 examples, have steps for each; assume each is an independent task
   ** Create a new command?
   ** Allow item to have a different behavior?
@@ -18,6 +18,7 @@
 == Done
 . Try out ATOM editor with ASCIIDoc (5/5) [Using preview mode]
 . Set up TODO list (5/5)
+. Set up Minecraft account (5/7)
 
 == Oddball ideas
 * Receive movement directions from some other input device: Leap?
