@@ -5,8 +5,10 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
+import com.nextcentury.wic.minecraft.food.BringMeDoughnuts;
 import com.nextcentury.wic.minecraft.food.Doughnut;
 
 @Mod(modid = ExampleMod.MODID, version = ExampleMod.VERSION)
@@ -28,4 +30,8 @@ public class ExampleMod {
 		GameRegistry.registerItem(doughnut, "doughnut");
 	}
 
+	@EventHandler
+	public void registerCommands(FMLServerStartingEvent event) {
+		event.registerServerCommand(new BringMeDoughnuts());
+	}
 }
