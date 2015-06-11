@@ -1,7 +1,11 @@
 package com.nextcentury.wic.minecraft.food;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.ChatComponentText;
+import net.minecraft.world.World;
 
 public class Doughnut extends ItemFood {
 
@@ -27,6 +31,12 @@ public class Doughnut extends ItemFood {
 		
 	}
 
-	
+	@Override
+	protected void onFoodEaten(ItemStack stack, World worldIn,
+			EntityPlayer player) {
+		super.onFoodEaten(stack, worldIn, player);
+		player.addChatComponentMessage(new ChatComponentText("You ate a doughnut"));
+		
+	}	
 	
 }
